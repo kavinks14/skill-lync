@@ -1,0 +1,28 @@
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\bin\Debug\ParkingSystem.exe.config
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\bin\Debug\ParkingSystem.exe
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\bin\Debug\ParkingSystem.pdb
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.csprojAssemblyReference.cache
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\MainWindow.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\App.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem_MarkupCompile.cache
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem_MarkupCompile.lref
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\MainWindow.baml
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.g.resources
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.Properties.Resources.resources
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.csproj.GenerateResource.cache
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.exe
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.pdb
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\vehicleSlot.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\vehicleSlot.baml
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\Vehicle In.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\Vehicle In.baml
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\Receipt.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\vehicle Out.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ViewSlot.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\Receipt.baml
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\vehicle Out.baml
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\ViewSlot.baml
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\LoginPage.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Skill_Lync\source\repos\ParkingSystem\ParkingSystem\obj\Debug\LoginPage.baml

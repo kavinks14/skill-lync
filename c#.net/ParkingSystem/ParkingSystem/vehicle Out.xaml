@@ -1,0 +1,34 @@
+﻿<UserControl x:Class="ParkingSystem.vehicle_Out"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ParkingSystem"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+        <Label Content="iSprout" HorizontalAlignment="Center" Width="200" Height="70" Margin="281,0,319,380" FontFamily="Segoe UI Black" FontSize="48" Foreground="#FFFF6200" FontWeight="Bold"/>
+        <Label Content="  Token NO:" HorizontalAlignment="Center" Width="100" Height="30" Margin="225,117,475,303" FontWeight="Bold" ></Label>
+        <Label Content="  (Or)" HorizontalAlignment="Center" Width="100" Height="30" Margin="239,152,461,268" FontWeight="Bold" ></Label>
+        <Label Content="   Vehicle No:" HorizontalAlignment="Center" Width="100" Height="30" Margin="225,187,475,233" FontWeight="Bold" ></Label>
+        <Label Content="  Time Out:" HorizontalAlignment="Center" Width="100" Height="30" Margin="225,227,475,193" FontWeight="Bold"></Label>
+        <Label Content="  Duration:" HorizontalAlignment="Center" Width="100" Height="30" Margin="225,262,475,158" FontWeight="Bold"></Label>
+        <Label Content="  Total Amount:" HorizontalAlignment="Center" Width="100" Height="30" Margin="225,297,475,123" RenderTransformOrigin="0.771,0.488" FontWeight="Bold"></Label>
+
+        <TextBox x:Name="txt1" HorizontalAlignment="Center" Height="30" Width="100" Margin="338,122,362,298" RenderTransformOrigin="0.725,1.801"></TextBox>
+        <TextBox x:Name="txt2" HorizontalAlignment="Center" Height="30" Width="100" Margin="338,187,362,233" RenderTransformOrigin="0.725,1.801"></TextBox>
+        <TextBox x:Name="txt3" HorizontalAlignment="Center" Height="30" Width="100" Margin="338,297,362,123" RenderTransformOrigin="0.725,1.801"></TextBox>
+        <TextBox x:Name="txt4" HorizontalAlignment="Center" Height="30" Width="100" Margin="338,262,362,158" RenderTransformOrigin="0.725,1.801"></TextBox>
+
+
+
+        <Button x:Name="bnt1" Content="Vehicle" HorizontalAlignment="Center" Width="100" Height="30" Margin="338,375,362,45" Background="#FFFF2300" Click="bnt1_Click" />
+        <Button x:Name="bnt2" Content="Search" HorizontalAlignment="Center" Width="100" Height="30" Margin="495,122,205,298" FontWeight="Bold" />
+        <Button x:Name="bnt3" Content="Back" HorizontalAlignment="Center" Width="100" Height="30" Margin="622,375,78,45" Background="#FF42403E" Foreground="White" Click="bnt3_Click" ></Button>
+
+
+
+
+    </Grid>
+</UserControl>

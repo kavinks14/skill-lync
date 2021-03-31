@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="ParkingSystem.Vehicle_In"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ParkingSystem"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+        <Grid.Background>
+            <ImageBrush ImageSource="vehicle In.jpg" Stretch="Fill"/>
+        </Grid.Background>
+
+        <DatePicker Height="30" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="29,84,571,336"/>
+
+
+
+        <Label Content="iSprout" HorizontalAlignment="Center" Width="200" Height="70" Margin="288,10,312,370" FontFamily="Segoe UI Black" FontSize="48" Foreground="#FFFF6200"/>
+        <Label Content="   Token No:" HorizontalAlignment="Center" Width="80" Height="30" Margin="29,133,691,287" Foreground="#FFFBF8F8" FontWeight="Bold"/>
+        <Label Content=" Vehicle Mode:" HorizontalAlignment="Center" Width="110" Height="30" Margin="29,173,661,247" Foreground="#FFFBF8F8" FontWeight="Bold"/>
+        <Label Content="   Vehicle No:" HorizontalAlignment="Center" Width="110" Height="30" Margin="29,203,661,217"  Foreground="#FFFBF8F8" FontWeight="Bold"/>
+        <Label Content="   Brand:" HorizontalAlignment="Center" Width="80" Height="30" Margin="49,243,671,177" RenderTransformOrigin="0.892,1.01" Foreground="#FFFBF8F8" FontWeight="Bold"/>
+        <Label Content="   Color:" HorizontalAlignment="Center" Width="100" Height="30" Margin="59,273,641,147" Foreground="#FFFBF8F8" FontWeight="Bold"/>
+        <Label Content="  Time IN:" HorizontalAlignment="Center" Width="80" Height="30" Margin="49,308,671,112" Foreground="#FFFBF8F8" FontWeight="Bold" RenderTransformOrigin="0.875,0.467"/>
+
+
+        <TextBox x:Name="txt3" HorizontalAlignment="Center" Height="30" Width="90" Margin="129,133,581,287" TextChanged="txt3_TextChanged"></TextBox>
+        <TextBox x:Name="txt4" HorizontalAlignment="Center" Height="30" Width="90" Margin="129,203,581,217"></TextBox>
+        <TextBox x:Name="txt5" HorizontalAlignment="Center" Height="30" Width="90" Margin="129,238,581,182" RenderTransformOrigin="0.83,-0.4"></TextBox>
+        <TextBox x:Name="txt6" HorizontalAlignment="Center" Height="30" Width="90" Margin="129,273,581,147" RenderTransformOrigin="0.725,1.801"></TextBox>
+
+        <ComboBox Name="cbm1" Width="90" Height="30" HorizontalAlignment="Center" Margin="129,168,581,252"></ComboBox>
+
+        <Button x:Name="bnt1" Content="Vehicle" HorizontalAlignment="Center" Width="100" Height="30" Margin="129,371,571,49" Background="#FF41C116" ></Button>
+        <Button x:Name="bnt2" Content="Delete" HorizontalAlignment="Center" Width="100" Height="30" Margin="306,371,394,49" Background="#FFE6482F" ></Button>
+        <Button x:Name="bnt3" Content="Save" HorizontalAlignment="Center" Width="100" Height="30" Margin="485,371,215,49" Background="#FFF9F9F9" RenderTransformOrigin="1.42,0.6" ></Button>
+        <Button x:Name="bnt4" Content="Back" HorizontalAlignment="Center" Width="100" Height="30" Margin="650,371,50,49" Background="#FF42403E" Foreground="White" Click="bnt4_Click_1" ></Button>
+
+
+
+        <StackPanel Margin="266,115,105,111" Background="#FFBEC3C7">
+            <DataGrid AutoGenerateColumns="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Token No"/>
+                    <DataGridTextColumn Header="Vehicle Mode"/>
+                    <DataGridTextColumn Header="Vehicle No"/>
+                    <DataGridCheckBoxColumn Header="Brand"/>
+                    <DataGridCheckBoxColumn Header="Color"/>
+                    <DataGridCheckBoxColumn Header="Time in"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+
+    </Grid>
+</UserControl>
